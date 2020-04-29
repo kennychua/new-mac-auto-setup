@@ -11,5 +11,5 @@ set -U theme_nerd_fonts yes
 # Install fisherman
 curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
 
-# Install fish nvm
-fisher nvm
+# Install nvm for fish shell
+fisher add jorgebucaran/fish-nvm
